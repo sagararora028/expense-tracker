@@ -1,0 +1,115 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Dark background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #222; /* Slightly lighter dark */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input Section */
+  #expenseForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-section input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    flex: 1;
+  }
+  
+  .input-section input::placeholder {
+    color: #888;
+  }
+  
+  #expenseName,
+  #expenseAmount {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7b1fa2;
+  }
+  
+  /* Expenses Section */
+  .expenses-section {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  #totalAmount {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  ul li {
+    background-color: #333;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: auto;
+
+  }
+  
+  .delete {
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
